@@ -1,0 +1,96 @@
+.gridster * {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #0f9d58;
+}
+
+/*/
+/* demo
+/*/
+
+body {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #444;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+/*/
+/* gridster
+/*/
+
+.gridster ul {
+    background-color: #EFEFEF;
+    margin: 0 auto;
+}
+
+.gridster li {
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.gridster {
+    margin: 0 auto;
+
+    opacity: .8;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.gridster .gs-w {
+    background: #DDD;
+    cursor: pointer;
+}
+
+.gridster .player {
+    background: #BBB;
+}
+
+.gridster .preview-holder {
+    border: none !important;
+    background: red !important;
+}
+
+/****************************************/
+body {
+    color: #333;
+}
+
+.gridster ul {
+    background: #fff;
+    border-left: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+}
+
+.gridster li {
+    font-weight: normal;
+}
+
+.gridster .gs-w {
+    background: #fff;
+}
+
+.gridster li .gridtable {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.gridster li .gridtable td {
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    word-break:break-all;
+    line-height:1.8;
+}

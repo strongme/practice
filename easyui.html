@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EASYUI DEMO</title>
+    <link rel="stylesheet" type="text/css"  href="bower_components/jquery-easyui-1/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css"  href="bower_components/jquery-easyui-1/themes/icon.css">
+    <link rel="stylesheet" type="text/css"  href="bower_components/jquery-easyui-1/themes/color.css">
+    <link rel="stylesheet" type="text/css"  href="app/css/common.css">
+</head>
+<body>
+    <h2>基本CRUD应用示例</h2>
+    <p>单击数据表工具栏上的按钮进行操作</p>
+
+    <table id="dg" title="用户列表" class="easyui-datagrid" style="width: 100%;height: 370px;"
+           url="app/data/user.json" toolbar="#toolbar" pagination="true"
+           rownumbers="true" fitColumns="true" singleSelect="true"
+    >
+        <thead>
+            <tr>
+                <th field="firstname" width="25%">名字</th>
+                <th field="lastname" width="25%">姓氏</th>
+                <th field="phone" width="25%">电话</th>
+                <th field="email" width="25%">邮件</th>
+            </tr>
+        </thead>
+    </table>
+    <div id="toolbar">
+        <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" onclick="newUser();">新增</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" onclick="editUser();">编辑</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" plain="true">删除</a>
+    </div>
+
+    <!--弹框-->
+    <div id="dlg" class="easyui-dialog" style="width: 400px;height: 280px;padding: 10px 20px;" closed="true" buttons="#dlg-buttons">
+        <div class="ftitle">用户信息</div>
+        <form id="fm" method="post" novalidate>
+            <div class="fitem">
+                <label>名字:</label>
+                <input name="firstname" class="easyui-textbox" required="true">
+            </div>
+            <div class="fitem">
+                <label>姓氏:</label>
+                <input name="lastname" class="easyui-textbox" required="true">
+            </div>
+            <div class="fitem">
+                <label>电话:</label>
+                <input name="phone" class="easyui-textbox">
+            </div>
+            <div class="fitem">
+                <label>邮件:</label>
+                <input name="email" class="easyui-textbox" required="true">
+            </div>
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok">保存</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascrip:$('#dlg').dialog('close')">取消</a>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jquery-easyui-1/jquery.easyui.min.js"></script>
+    <script src="bower_components/jquery-easyui-1/locale/easyui-lang-zh_CN.js"></script>
+    <script>
+        var url;
+        function newUser() {
+            $('#dlg').dialog('open').dialog('center').dialog('setTitle','新增用户');
+            $('#fm').form('clear');
+        }
+        function editUser() {
+            var row = $('#dg').datagrid('getSelected');
+            if(row) {
+                $('#dlg').dialog('open').dialog('center').dialog('setTitle','编辑用户');
+                $('#fm').form('load', row);
+            }
+        }
+
+
+    </script>
+</body>
+</html>

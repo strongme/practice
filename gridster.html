@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <title>Gridster</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bower_components/gridster/dist/jquery.gridster.css">
+    <link rel="stylesheet" type="text/css" href="app/css/gridster.css">
+    <!--<link rel="stylesheet" type="text/css" href="bower_components/Materialize/dist/css/materialize.css">-->
+</head>
+<body>
+
+<div id="opArea">
+    <button class="btn waves-effect waves-light" id="doSerialize">序列化</button>
+    <input type="checkbox" id="resizable"> Resizable
+    <input type="checkbox" id="dragable"> Dragable
+    <br>
+    <select id="selForContent">
+        <option value="">请选择Label</option>
+        <option value="${student.name}">学员姓名</option>
+        <option value="${student.mobile}">学员手机号</option>
+    </select>
+    <button class="btn waves-effect waves-light" id="addWidget">添加[Label-Value]</button>
+    <button class="btn waves-effect waves-light" id="addWidgetLabel">添加[Label]</button>
+    <button class="btn waves-effect waves-light" id="doPrint">打印</button>
+</div>
+<br>
+
+<div class="gridster" id="forPrint">
+    <ul>
+    </ul>
+</div>
+<div class="row">
+    <div class="col s12 card" id="content">
+
+    </div>
+</div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/jQuery.print/jQuery.print.js"></script>
+<script src="bower_components/gridster/dist/jquery.gridster.js"></script>
+<script src="app/js/gridster_init.js" type="text/javascript"></script>
+</body>
+</html>

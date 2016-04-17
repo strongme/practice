@@ -1,0 +1,418 @@
+[
+  {
+    "col": 1,
+    "row": 1,
+    "size_x": 1,
+    "size_y": 8,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 2,
+    "row": 1,
+    "size_x": 1,
+    "size_y": 4,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 2,
+    "row": 5,
+    "size_x": 1,
+    "size_y": 4,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 3,
+    "row": 2,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 5,
+    "row": 1,
+    "size_x": 4,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 9,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 11,
+    "row": 1,
+    "size_x": 4,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 15,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 17,
+    "row": 1,
+    "size_x": 4,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 21,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 23,
+    "row": 1,
+    "size_x": 4,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 3,
+    "row": 1,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 5,
+    "row": 2,
+    "size_x": 6,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 11,
+    "row": 2,
+    "size_x": 4,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 15,
+    "row": 2,
+    "size_x": 12,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 3,
+    "row": 3,
+    "size_x": 4,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 7,
+    "row": 3,
+    "size_x": 8,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 15,
+    "row": 4,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 17,
+    "row": 3,
+    "size_x": 7,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 3,
+    "row": 4,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 5,
+    "row": 4,
+    "size_x": 10,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 15,
+    "row": 3,
+    "size_x": 2,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 17,
+    "row": 4,
+    "size_x": 7,
+    "size_y": 1,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 3,
+    "row": 5,
+    "size_x": 21,
+    "size_y": 1,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 24,
+    "row": 3,
+    "size_x": 3,
+    "size_y": 6,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 3,
+    "row": 6,
+    "size_x": 21,
+    "size_y": 3,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 1,
+    "row": 9,
+    "size_x": 2,
+    "size_y": 12,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 3,
+    "row": 9,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 6,
+    "row": 9,
+    "size_x": 9,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 15,
+    "row": 9,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 18,
+    "row": 9,
+    "size_x": 6,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 3,
+    "row": 11,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 6,
+    "row": 11,
+    "size_x": 9,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 15,
+    "row": 11,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 18,
+    "row": 11,
+    "size_x": 6,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 24,
+    "row": 9,
+    "size_x": 3,
+    "size_y": 4,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 3,
+    "row": 13,
+    "size_x": 1,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 4,
+    "row": 13,
+    "size_x": 2,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 6,
+    "row": 13,
+    "size_x": 9,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 15,
+    "row": 13,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 18,
+    "row": 13,
+    "size_x": 9,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 3,
+    "row": 15,
+    "size_x": 1,
+    "size_y": 6,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 4,
+    "row": 15,
+    "size_x": 2,
+    "size_y": 3,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 6,
+    "row": 15,
+    "size_x": 9,
+    "size_y": 3,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 4,
+    "row": 18,
+    "size_x": 2,
+    "size_y": 3,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 6,
+    "row": 18,
+    "size_x": 9,
+    "size_y": 3,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 15,
+    "row": 15,
+    "size_x": 3,
+    "size_y": 6,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 18,
+    "row": 15,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 21,
+    "row": 15,
+    "size_x": 6,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 18,
+    "row": 17,
+    "size_x": 3,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  },
+  {
+    "col": 21,
+    "row": 17,
+    "size_x": 6,
+    "size_y": 2,
+    "type": "placeholder",
+    "value": "${student.name}"
+  },
+  {
+    "col": 18,
+    "row": 19,
+    "size_x": 9,
+    "size_y": 2,
+    "type": "label",
+    "value": "学员姓名"
+  }
+]
